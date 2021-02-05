@@ -3,7 +3,7 @@
 ## Introduction
 Third-rate University student. English pool. Studying C/C++/Python. 
 
-Compared to English, communicating with me in Japanese is easier for me to understand. *（このユーザーは英語が苦手ですから、日本語で話してください。）*'
+Compared to English, communicating with me in Japanese is easier for me to understand. *（このユーザーは英語が苦手ですから、日本語で話してください。）*
 
 There are some pinned sepositories below which are the works of my practice. 
 
