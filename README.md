@@ -1,6 +1,6 @@
 # Hi there 👋
 
-## Introduction
+## Self Introduction
 Third-rate University student. English pool. Studying C/C++/Python. 
 
 Compared to English, communicating with me in Japanese is easier for me to understand. *（このユーザーは英語が苦手ですから、日本語で話し合ってください。）*
