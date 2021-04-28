@@ -1,4 +1,4 @@
-# About Aaki
+# Hi there 👋
 
 ## Introduction
 Third-rate University student. English pool. Studying C/C++/Python. 
