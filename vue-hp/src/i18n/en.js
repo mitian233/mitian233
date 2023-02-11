@@ -1,7 +1,7 @@
 module.exports={
     message:{
-        homeNavi: 'About me',
-        aboutNavi: 'This site',
+        homeNavi: 'Home',
+        aboutNavi: 'About me',
         myTitle: 'Hello! I am Mikan.',
         aboutTitle: 'A version rewritten with Vuejs',
     }
