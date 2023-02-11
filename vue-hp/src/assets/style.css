@@ -1,10 +1,7 @@
-div {
-    white-space: pre-line;
-}
 .container {
     position : absolute;
     width: 100%;
-    height: calc(100% - 45px);
+    /*height: calc(100% - 45px);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,11 +13,11 @@ div {
 }
 
 .text {
-    font-family: 'Fragment Mono', monospace;
+    font-family: 'Fragment Mono', 'Noto Sans SC', monospace;
     color: #000;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10px;
+    margin: 0 10px 0 10px;
+    white-space: pre-line;
+    text-align:justify
 }
 
 .window {

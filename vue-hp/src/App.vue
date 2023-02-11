@@ -28,7 +28,7 @@ export default {
 }
 
 nav {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 

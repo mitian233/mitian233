@@ -1,18 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import {createMetaManager} from "vue-meta"
-import {createI18n} from "vue-i18n"
+import {createI18n} from "vue-i18n";
 
 // i18n
 const messages = {
-    en: require('./i18n/en'),
-    ja: require('./i18n/ja'),
-    'zh-hans': require('./i18n/zh-hans'),
-    'zh-hant': require('./i18n/zh-hant'),
+    en: require('./en'),
+    ja: require('./ja'),
+    'zh-hans': require('./zh-hans'),
+    'zh-hant': require('./zh-hant'),
 }
 function getLanguage() {
-    const language = navigator.language.toLowerCase()
+    const language = navigator.language.toLowerCase();
     let lang = 'en'
     switch (true) {
         case language == 'ja':
@@ -34,9 +30,4 @@ const i18n = createI18n({
     messages
 })
 
-// Vueイニシャライズ
-createApp(App)
-    .use(router)
-    .use(createMetaManager())
-    .use(i18n)
-    .mount('#app')
+export default i18n

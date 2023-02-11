@@ -5,7 +5,7 @@
     </div>
     <div class="item">
       <div class="headpic" style="height: 200px;width: 200px">
-        <img src="@/assets/images/user_avatar.png" alt="user avatar" style="height: 200px;width: 200px">
+        <img src="@/assets/images/avatar.jpg" alt="user avatar" style="height: 200px;width: 200px">
       </div>
     </div>
     <div class="item">
