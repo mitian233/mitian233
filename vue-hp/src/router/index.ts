@@ -6,6 +6,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'home',
     component: HomeView
+  },{
+    path: '/home',
+    name: 'DesktopHome',
+    component: () => import('../views/DesktopView.vue')
   },
   {
     path: '/about',

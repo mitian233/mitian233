@@ -2,18 +2,42 @@
   <metainfo>
     <template v-slot:title="{ content }">{{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}</template>
   </metainfo>
-  <nav>
+  <!--<nav>
+    <a :href="homepageNavi()">{{ $t("message.homeNavi") }}</a> |
     <router-link to="/">{{ $t("message.homeNavi") }}</router-link> |
     <router-link to="/about">{{ $t("message.aboutNavi") }}</router-link>
-  </nav>
+  </nav>-->
   <router-view/>
   <Background/>
 </template>
 
 <script>
 import Background from "@/components/Background";
+
 export default {
-  components: {Background}
+  components: {
+    Background
+  },
+  methods: {
+    homepageNavi: function () {
+      if (this._isMobile()) {
+        return '/'
+      } else {
+        return '/home'
+      }
+    },
+    _isMobile: function() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      return flag
+    }
+  },
+  mounted() {
+    if (this._isMobile()) {
+      this.$router.replace('/')
+    } else {
+      this.$router.replace('/home')
+    }
+  }
 }
 
 </script>

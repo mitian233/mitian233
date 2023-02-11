@@ -1,0 +1,37 @@
+@import "@/assets/style.css";
+.pcView {
+    flex-direction: row;
+}
+.leftBox {
+    flex-grow: 1;
+}
+.leftBox .userdata {
+    height: 100%;
+}
+.leftBox .userdata img {
+    height: 100%;
+}
+.leftBox .userdata .databox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 70px;
+    padding-left: 70px;
+}
+.twitter {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.userid {
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+}
+
+.rightBox {
+
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mobile">
     <div class="item">
       <HelloWorld :msg="$t('message.myTitle')"/>
     </div>
@@ -45,4 +45,7 @@ export default defineComponent({
 
 <style>
 @import "@/assets/style.css";
+.mobile {
+  align-items: center;
+}
 </style>
