@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       showCounter: true,
-      routerPath: 'https://www.mikan.ac.cn'+this.$route.path,
+      routerPath: 'https://blog.mikan.ac.cn'+this.$route.path,
     };
   },
   beforeRouteLeave(to, from, next) {
