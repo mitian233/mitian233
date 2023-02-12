@@ -1,7 +1,7 @@
 .container {
     position : absolute;
     width: 100%;
-    /*height: calc(100% - 45px);*/
+    min-height: calc(100% - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;

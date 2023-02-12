@@ -3,7 +3,7 @@ module.exports={
         homeNavi: 'Home',
         aboutNavi: 'About me',
         myTitle: 'Hello! I am Mikan.',
-        aboutTitle: 'A version rewritten with Vuejs',
+        aboutTitle: 'Rewritten with Vuejs',
         aboutContent: [
             "Hello!",
             "Thank you for visiting my site. You came to see my introduction, didn't you? I'm a little embarrassed (////). It took half a day to make this site, but I don't know what to write here. Let's use this as an extension document ~",
