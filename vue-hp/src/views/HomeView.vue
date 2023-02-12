@@ -18,7 +18,7 @@
             <p class="text">I'm <span style="color: #24cc3d;">Mikan</span></p>
             <p class="text">This is my <span style="color: #24cc3d;">home page</span></p>
             <p class="text">Here are some <span style="color: #24cc3d;">useful links</span> to my profile:</p>
-            <p class="text">Blog: <a href="https://mikan.bangdream.moe">https://mikan.bangdream.moe</a></p>
+            <p class="text">Blog: <a href="https://blog.mikan.ac.cn">https://blog.mikan.ac.cn</a></p>
             <p class="text">GitHub: <a href="https://github.com/mitian233">https://github.com/mitian233</a></p>
             <p class="text">Twitter: <a href="https://twitter.com/9_bishi">https://twitter.com/9_bishi</a></p>
             <p class="text">Email: <a href="mailto:kasumi@bangdream.moe">kasumi@bangdream.moe</a></p>

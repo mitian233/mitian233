@@ -1,10 +1,10 @@
 <template>
 <div class="container">
-  <div class="item" style="text-align: center">
-    <h1>404</h1>
-    <h2>Page Not Found</h2>
-    <p>Sorry, the page you are looking for is temporarily unavailable on this site. </p>
-    <p>Go back to the <router-link to="/">homepage</router-link></p>
+  <div class="item default-font" style="text-align: center">
+    <h1>{{$t('message.fnfTitle')}}</h1>
+    <h2>{{$t('message.fnfSubtitle')}}</h2>
+    <p>{{$t('message.fnfDescribe1')}}</p>
+    <p>{{$t('message.fnfDescribe2')}}<router-link to="/">{{$t('message.fnfBackToTop')}}</router-link></p>
     <count-down :url="routerPath" :key="new Date().getTime()" v-if="showCounter"/>
   </div>
 </div>

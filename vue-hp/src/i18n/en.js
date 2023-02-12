@@ -14,6 +14,14 @@ module.exports={
             "I'm a little shy, so I don't look for a conversation partner. But if you want to talk and become friends, I'm happy. My SNS account is on the top page. If possible, please PM me directly and I will reply to you as soon as possible ~",
             "I'm not good at English, so I'm sorry if I make a mistake. I hope you can understand me. Thank you for your visit ~",
             "(30% of the content created by GitHub Copilot)"
-        ]
+        ],
+        fnfTitle: '404',
+        fnfSubtitle: 'Page not found',
+        fnfDescribe1: 'Sorry, the page you are looking for is temporarily unavailable on this site. ',
+        fnfDescribe2: 'Go back to the ',
+        fnfBackToTop: 'homepage',
+        fnfDescribe3: 'Or you will be redirected to ',
+        fnfWait: ' in ',
+        fnfSecond: ' s',
     }
 }

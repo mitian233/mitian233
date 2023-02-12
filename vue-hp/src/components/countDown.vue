@@ -1,5 +1,5 @@
 <template>
-  <p>Or you will be redirected to <a :href="url">{{url}}</a> in {{countDownTime}}s.</p>
+  <p>{{$t('message.fnfDescribe3')}}<a :href="url">{{url}}</a>{{$t('message.fnfWait')}}{{countDownTime}}{{$t('message.fnfSecond')}}</p>
 </template>
 
 <script>
