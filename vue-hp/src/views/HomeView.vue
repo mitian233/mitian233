@@ -49,6 +49,16 @@ export default defineComponent({
           icon: "bi bi-journal"
         },
         {
+          title: "GitHub",
+          url: "https://github.com/mitian233",
+          icon: "bi bi-github"
+        },
+        {
+          title: "Instagram",
+          url: "https://www.instagram.com/aaki_ig/",
+          icon: "bi bi-instagram"
+        },
+        {
           title: "Line",
           url: "https://line.me/ti/p/sJ_kxUpvSQ",
           icon: "bi bi-line"},
@@ -56,11 +66,6 @@ export default defineComponent({
           title: "Mail",
           url: "mailto:kasumi@bangdream.moe",
           icon: "bi bi-envelope"
-        },
-        {
-          title: "GitHub",
-          url: "https://github.com/mitian233",
-          icon: "bi bi-github"
         },
         {
           title: "Mastodon",
