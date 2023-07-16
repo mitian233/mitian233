@@ -11,9 +11,9 @@
         <div class="card-body">
           <h2 class="card-title">Hi~👋</h2>
           <div class="whitespace-pre-line">
-            <p>I'm <span style="color: #24cc3d;">Mikan</span></p>
-            <p>This is my <span style="color: #24cc3d;">home page</span></p>
-            <p>Here are some <span style="color: #24cc3d;">useful links</span> to my profile:</p>
+            <p>I'm <span class="text-accent-focus">Mikan</span></p>
+            <p>This is my <span class="text-accent-focus">home page</span></p>
+            <p>Here are some <span class="text-accent-focus">useful links</span> to my profile:</p>
             <div class="flex justify-center">
               <div class="flex flex-row flex-wrap justify-center m-3">
                 <div v-for="button in links">

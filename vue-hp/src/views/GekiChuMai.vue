@@ -3,7 +3,7 @@
     <div class="card w-96 bg-base-100 shadow-xl mx-10 min-w-fit md:mt-40">
       <div class="card-body">
         <div class="card-title">
-          拷贝我的ID
+          拷贝我的各种ID
         </div>
         <div>
           <p>一键加好友</p>
