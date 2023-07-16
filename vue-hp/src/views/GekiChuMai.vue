@@ -7,15 +7,22 @@
         </div>
         <div>
           <p>一键加好友</p>
-          <table>
-            <tbody>
+          <div v-if="isLoading">
+            <div class="text-center">
+              <p><span class="loading loading-ring loading-lg"></span></p>
+            </div>
+          </div>
+          <div v-else>
+            <table>
+              <tbody>
               <tr v-for="(data, index) in myData" :key="index">
                 <td><p class="text-right">{{data.game}}:</p></td>
                 <td><input :id="index" type="text" class="input input-ghost w-full max-w-xs" disabled :value="data.id"/></td>
                 <td><button class="btn btn-square copyID" :data-clipboard-text="data.id"><i class="bi bi-clipboard"></i></button></td>
               </tr>
-            </tbody>
-          </table>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
@@ -24,29 +31,26 @@
 
 <script>
 import ClipboardJS from "clipboard";
+import axios from "axios";
 export default {
   name: "GekiChuMai",
   data() {
     return {
-      myData: [
-        {
-          game: "CHUNITHM(CN)",
-          id: "100524487797205"
-        },
-        {
-          game: "maimaiDX(CN)",
-          id: "884614379689669"
-        },
-        {
-          game: "BanG Dream(JP)",
-          id: "116600266"
-        }
-      ]
+      myData: [],
+      isLoading: true
     };
   },
   methods: {
+    fetchData: async function() {
+      try{
+        const response = await axios.get('https://api-mfl.bangdream.moe/myData.json');
+        const dataArray = response.data;
+      } catch (error) {
+        console.error(error);
+      }
+    }
   },
-  mounted: () => {
+  mounted() {
     const clipboard = new ClipboardJS('.copyID');
     clipboard.on('success', function(e) {
       console.info('Action:', e.action);
@@ -58,6 +62,14 @@ export default {
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);
     });
+    axios.get("https://api-mfl.bangdream.moe/myData.json").then((resp)=>{
+      const raw = resp.data;
+      this.myData = raw;
+      this.isLoading = false;
+    })
+  },
+  created() {
+
   }
 };
 </script>
