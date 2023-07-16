@@ -1,10 +1,10 @@
 <template>
-<div class="container">
-  <div class="item default-font" style="text-align: center">
-    <h1>{{$t('message.fnfTitle')}}</h1>
+<div class="flex flex-col justify-center">
+  <div class="text-center mt-52">
+    <h1 class="text-4xl font-bold m-10">{{$t('message.fnfTitle')}}</h1>
     <h2>{{$t('message.fnfSubtitle')}}</h2>
     <p>{{$t('message.fnfDescribe1')}}</p>
-    <p>{{$t('message.fnfDescribe2')}}<router-link to="/">{{$t('message.fnfBackToTop')}}</router-link></p>
+    <p>{{$t('message.fnfDescribe2')}}<router-link class="link" to="/">{{$t('message.fnfBackToTop')}}</router-link></p>
     <count-down :url="routerPath" :key="new Date().getTime()" v-if="showCounter"/>
   </div>
 </div>

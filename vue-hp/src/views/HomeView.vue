@@ -1,28 +1,32 @@
 <template>
-  <div class="container">
-    <div class="item">
-      <HelloWorld :msg="$t('message.myTitle')"/>
-    </div>
-    <div class="item">
-      <div class="headpic" style="height: 200px;width: 200px">
-        <img src="@/assets/images/avatar.jpg" alt="user avatar" style="height: 200px;width: 200px">
-      </div>
-    </div>
-    <div class="item">
-      <div class="window" style="max-width: 500px;">
-        <div class="header">
-        </div>
-        <div class="content">
-          <div>
-            <p class="text">Hi~👋</p>
-            <p class="text">I'm <span style="color: #24cc3d;">Mikan</span></p>
-            <p class="text">This is my <span style="color: #24cc3d;">home page</span></p>
-            <p class="text">Here are some <span style="color: #24cc3d;">useful links</span> to my profile:</p>
-            <p class="text">Blog: <a href="https://blog.mikan.ac.cn">https://blog.mikan.ac.cn</a></p>
-            <p class="text">GitHub: <a href="https://github.com/mitian233">https://github.com/mitian233</a></p>
-            <p class="text">Twitter: <a href="https://twitter.com/9_bishi">https://twitter.com/9_bishi</a></p>
-            <p class="text">Email: <a href="mailto:kasumi@bangdream.moe">kasumi@bangdream.moe</a></p>
-            <p class="text">Feel free to make friend with me. </p>
+  <div class="flex justify-center">
+    <div class="flex flex-col justify-center justify-items-center">
+      <!--<h1 class="text-4xl font-bold text-center mb-5">{{ $t('message.myTitle') }}</h1>-->
+      <div class="card lg:card-side bg-base-100/75 glass shadow-xl mb-10 ml-1 mr-1">
+        <figure>
+          <div class="w-60 h-60 rounded-full overflow-hidden m-10">
+            <img class="w-full h-full" src="@/assets/images/avatar.jpg" alt="Album"/>
+          </div>
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Hi~👋</h2>
+          <div class="whitespace-pre-line">
+            <p>I'm <span style="color: #24cc3d;">Mikan</span></p>
+            <p>This is my <span style="color: #24cc3d;">home page</span></p>
+            <p>Here are some <span style="color: #24cc3d;">useful links</span> to my profile:</p>
+            <div class="flex justify-center">
+              <div class="flex flex-row flex-wrap justify-center m-3">
+                <div v-for="button in links">
+                  <button :title="button.title" class="btn btn-circle m-2" @click="jumpTo(button.url)">
+                    <i :class="button.icon"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <p>Feel free to make friend with me. </p>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="link" @click="goToAbout">Learn more→</button>
           </div>
         </div>
       </div>
@@ -33,16 +37,57 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HelloWorld from '@/components/HelloWorld.vue';
-import {useI18n} from "vue-i18n"; // @ is an alias to /src;
 
 export default defineComponent({
   name: 'HomeView',
+  data: () => {
+    return {
+      links:[
+        {
+          title: "Blog",
+          url: "https://blog.mikan.ac.cn",
+          icon: "bi bi-journal"
+        },
+        {
+          title: "Line",
+          url: "https://line.me/ti/p/sJ_kxUpvSQ",
+          icon: "bi bi-line"},
+        {
+          title: "Mail",
+          url: "mailto:kasumi@bangdream.moe",
+          icon: "bi bi-envelope"
+        },
+        {
+          title: "GitHub",
+          url: "https://github.com/mitian233",
+          icon: "bi bi-github"
+        },
+        {
+          title: "Mastodon",
+          url: "https://nightcord.de/@akiyamamizuki",
+          icon: "bi bi-mastodon"
+        },
+        {
+          title: "Twitter",
+          url: "https://twitter.com/9_bishi",
+          icon: "bi bi-twitter"
+        }
+      ]
+    }
+  },
   components: {
     HelloWorld: HelloWorld,
   },
+  methods: {
+    goToAbout: function () {
+      this.$router.push('/about');
+    },
+    jumpTo: function (url:string) {
+      window.open(url)
+    }
+  }
 });
 </script>
 
 <style>
-@import "@/assets/style.css";
 </style>

@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import {createMetaManager} from "vue-meta"
 import {createI18n} from "vue-i18n"
+import './assets/style.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'bootstrap-icons/bootstrap-icons.svg'
 
 // i18n
 const messages = {
@@ -39,4 +42,5 @@ createApp(App)
     .use(router)
     .use(createMetaManager())
     .use(i18n)
+    .use(getLanguage)
     .mount('#app')

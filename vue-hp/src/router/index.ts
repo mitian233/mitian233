@@ -16,6 +16,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
+    path: '/gcm',
+    name: '我的号码',
+    component: () => import('../views/GekiChuMai.vue'),
+    meta: {keepAlive: false,noCache: true}
+  },
+  {
     path: '/:pathMatch(.*)',
     name: 'fnf',
     component: () => import('../views/NotFoundView.vue'),
