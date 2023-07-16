@@ -17,10 +17,10 @@ module.exports={
         ],
         fnfTitle: '页面未找到',
         fnfSubtitle: '你来到了没有知识的荒原',
-        fnfDescribe1: '很抱歉，你貌似来到了一个之前可能可用但现在不可用的页面。',
+        fnfDescribe1: '很抱歉，您想访问的页面之前可能曾经可用但现在不可用。',
         fnfDescribe2: '你可以选择',
         fnfBackToTop: '返回首页',
-        fnfDescribe3: '或者等待我们帮助你找到可能正确的页面：',
+        fnfDescribe3: '或者等待我们帮助您找到可能正确的页面：',
         fnfWait: '\n等待重定向……',
         fnfSecond: '秒',
     }

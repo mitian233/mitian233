@@ -2,9 +2,9 @@
   <div class="flex justify-center">
     <div class="flex flex-col justify-center justify-items-center">
       <!--<h1 class="text-4xl font-bold text-center mb-5">{{ $t('message.myTitle') }}</h1>-->
-      <div class="card lg:card-side bg-base-100/75 glass shadow-xl mb-10 ml-1 mr-1">
-        <figure>
-          <div class="w-60 h-60 rounded-full overflow-hidden m-10">
+      <div class="card md:card-side bg-base-100/75 glass shadow-xl mb-10 mx-5 md:mt-40">
+        <figure class="md:w-80 md:h-full">
+          <div class="md:w-60 md:h-60 md:rounded-full overflow-hidden">
             <img class="w-full h-full" src="@/assets/images/avatar.jpg" alt="Album"/>
           </div>
         </figure>

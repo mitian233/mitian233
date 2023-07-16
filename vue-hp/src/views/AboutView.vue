@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div class="flex flex-col justify-items-center m-10">
-      <div class="mockup-window border bg-base-300 mb-5 max-w-4xl">
+      <div class="mockup-window border bg-base-300 mb-5 max-w-4xl shadow-xl">
         <div class="m-5">
           <div v-if="locale === 'zh-hans'||'zh-hant'||'ja'">
             <p class="text" style="text-indent:2em;" v-for="paragraph in aboutContent">{{ paragraph }}</p>
