@@ -9,6 +9,7 @@
   </transition>
   <nav>
     <router-link to="/">{{ $t("message.homeNavi") }}</router-link> |
+    <router-link to="/link">{{ $t("message.linksTitle") }}</router-link> |
     <router-link to="/about">{{ $t("message.aboutNavi") }}</router-link>
   </nav>
   <div class="z-0">

@@ -23,5 +23,8 @@ module.exports={
         fnfDescribe3: '或者等待我們幫助你找到可能正確的頁面：',
         fnfWait: '\n等待重定向……',
         fnfSecond: '秒',
+        linksTitle: '友情鏈接',
+        gcmTitle: '我的各種ID',
+        gcmSubtitle: '你可以在這裡找到我的游戲ID',
     }
 }

@@ -23,5 +23,8 @@ module.exports={
         fnfDescribe3: 'もしくは、正しいURLに移動するまでお待ちください：',
         fnfWait: '\nあと',
         fnfSecond: '秒',
+        linksTitle: 'Links',
+        gcmTitle: 'ゲームIDたち',
+        gcmSubtitle: 'ゲームのIDを見せてあげるよ',
     }
 }

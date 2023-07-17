@@ -25,6 +25,9 @@
           <a href="https://vercel.com/"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" style="width: 10em" alt="Powered by Vercel"/></a>
         </div>
         <p>Background: <a class="link" href="https://github.com/maborosh/BandoriStation/blob/v2/webapp/src/components/project/Background.vue">Source</a></p>
+        <button class="btn btn-circle m-2" v-on:click="this.$router.push('/gcm')">
+          <i class="bi bi-joystick"></i>
+        </button>
       </div>
     </div>
   </div>

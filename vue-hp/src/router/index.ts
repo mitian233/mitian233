@@ -26,6 +26,12 @@ const routes: Array<RouteRecordRaw> = [
     name: 'fnf',
     component: () => import('../views/NotFoundView.vue'),
     meta: {keepAlive: false,noCache: true}
+  },
+  {
+    path: '/link',
+    name:'Links',
+    component: () => import('../views/linkView.vue'),
+    meta: {keepAlive: false,noCache: true}
   }
 ]
 

@@ -23,5 +23,8 @@ module.exports={
         fnfDescribe3: 'Or you will be redirected to ',
         fnfWait: ' in ',
         fnfSecond: ' s',
+        linksTitle: 'Links',
+        gcmTitle: 'My gaming IDs',
+        gcmSubtitle: 'You can use these IDs to add me as a friend',
     }
 }

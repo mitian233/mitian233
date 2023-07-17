@@ -23,5 +23,8 @@ module.exports={
         fnfDescribe3: '或者等待我们帮助您找到可能正确的页面：',
         fnfWait: '\n等待重定向……',
         fnfSecond: '秒',
+        linksTitle: '友情链接',
+        gcmTitle: '拷贝我的各种ID',
+        gcmSubtitle: '一键加好友',
     }
 }

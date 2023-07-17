@@ -3,10 +3,10 @@
     <div class="card w-96 bg-base-100 shadow-xl mx-10 min-w-fit md:mt-40">
       <div class="card-body">
         <div class="card-title">
-          拷贝我的各种ID
+          {{$t('message.gcmTitle')}}
         </div>
         <div>
-          <p>一键加好友</p>
+          <p>{{$t('message.gcmSubtitle')}}</p>
           <div v-if="isLoading">
             <div class="text-center">
               <p><span class="loading loading-ring loading-lg"></span></p>
