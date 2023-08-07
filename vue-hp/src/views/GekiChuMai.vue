@@ -32,6 +32,7 @@
 <script>
 import ClipboardJS from "clipboard";
 import axios from "axios";
+
 export default {
   name: "GekiChuMai",
   data() {
@@ -63,8 +64,7 @@ export default {
       console.error('Trigger:', e.trigger);
     });
     axios.get("https://api-mfl.bangdream.moe/myData.json").then((resp)=>{
-      const raw = resp.data;
-      this.myData = raw;
+      this.myData = resp.data;
       this.isLoading = false;
     })
   },
