@@ -4,7 +4,7 @@
     <div class="card bg-base-100 shadow-2xl mx-10 mb-10 max-w-4xl">
       <div class="card-body">
         <h2 class="card-title">{{ $t("message.linksTitle") }}</h2>
-        <p>Let's change links</p>
+        <p>Let's exchange links</p>
         <div class="flex flex-wrap justify-between md:px-5">
           <div v-if="isLoading">
             <span class="loading loading-ring loading-lg"></span>
