@@ -4,7 +4,7 @@
 
 Third-rate University student. English pool. Studying PHP/Java/Kotlin/C++. 
 
-Front-end and back-end developer. I use vue.js and Bootstrap to build front-ended apps and use Flask or PHP to build back-ended apps. 
+Full Stack developer. I use vue.js and TailwindCSS to build front-ended apps and use Flask or PHP to build back-ended programs. 
 
 Compared to English, communicating with me in Japanese is easier for me to understand. 
 
