@@ -74,7 +74,7 @@ export default defineComponent({
         },
         {
           title: "Twitter",
-          url: "https://twitter.com/9_bishi",
+          url: "https://twitter.com/mikan_chn",
           icon: "bi bi-twitter"
         }
       ]
