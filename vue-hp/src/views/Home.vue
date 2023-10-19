@@ -79,11 +79,9 @@ function jumpTo(url:string) {
         <div class="border-l-2 md:border-l-0 md:border-r-2 py-2 pl-4 md:pl-0 md:pr-4 md:text-right">
           <p v-for="i in selfIntroduction" class="text-sm mb-2">{{i.valueOf()}}</p>
         </div>
-        <!--
         <div class="card-actions justify-end">
           <button class="link" @click="$router.push('/about');">Learn more→</button>
         </div>
-        -->
       </div>
     </div>
   </div>
