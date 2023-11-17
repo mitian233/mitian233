@@ -2,9 +2,13 @@
 
 ## Self Introduction
 
-Third-rate University student. English pool. Studying PHP/Java/Kotlin/C++. 
+Third-rate University student. English pool. Studying PHP/Java/Kotlin/C++/Rust. 
 
-Full Stack developer. I use vue.js and TailwindCSS to build front-ended apps and use Flask or PHP to build back-ended programs. 
+Full Stack developer. 
+
+- Frontend Tool chain: React, Vuejs, Nextjs, Nuxt, Tailwind CSS, TypeScript
+
+- Backend Tool chain: Python, Flask, Nodejs, MongoDB, Java, Spring
 
 Compared to English, communicating with me in Japanese is easier for me to understand. 
 
