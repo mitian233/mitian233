@@ -6,7 +6,6 @@ import {createI18n} from "vue-i18n"
 import './assets/style.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap-icons/bootstrap-icons.svg'
-import 'clipboard/dist/clipboard.min.js'
 
 // i18n
 const messages = {
