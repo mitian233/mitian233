@@ -1,6 +1,6 @@
 # Hi there 👋
 
-## Self Introduction
+## 🖊️ Self Introduction
 
 私は
 
@@ -10,11 +10,18 @@
 
 一度もない
 
-## GitHub Stats
+## 💻 Preferred programming language
 
-<div display="flex">
-<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mitian233&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=0" alt="Top Langs" /></a>
-<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=mitian233&&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=0&show_icons=1" alt="mitian233's GitHub stats" /></a>
+- ⭕ Python
+- ⭕ HTML / JavaScript / TypeScript
+- 🟨 Java / Kotlin
+- 🟨 Go
+
+## 📊 GitHub Stats
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mitian233&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=0" alt="Top Langs" /></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=mitian233&&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=0&show_icons=1" alt="mitian233's GitHub stats" /></a>
 </div>
 
 <!--
