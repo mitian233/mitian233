@@ -1,6 +1,6 @@
 # Hi there 👋
 
-<img align="right" width="450px" src="./github-metrics.svg" />
+<img align="right" width="400px" src="./github-metrics.svg" />
 
 ## 🖊️ Self Introduction
 
@@ -14,14 +14,29 @@
 
 ## 💻 Preferred programming language / Technology stack
 
-- ⭕ Python
-- ⭕ HTML / JavaScript / TypeScript
-- 🟨 Java / Kotlin
-- 🟨 Go
+### Learning
 
-## 📊 GitHub Stats
+![](https://skillicons.dev/icons?i=java,kotlin,spring,figma,pnpm,wasm,rust,haskell,go,nextjs,solidjs,svelte&theme=dark&perline=6)
 
-<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=mitian233&&bg_color=fff&title_color=000&text_color=000&hide_border=0&show_icons=1" alt="mitian233's GitHub stats" /></a>
+### Using
+
+![](https://skillicons.dev/icons?i=vercel,netlify,expressjs,docker,bun,deno,nodejs,mongo,vue,vite,nuxt,react,astro,ts,js,html,css,python,flask,npm,yarn&theme=dark&perline=6)
+
+### Used
+
+![](https://skillicons.dev/icons?i=mysql,sqlite,php,c,cpp,remix,gatsby,webpack&theme=dark&perline=6)
+
+### Tools
+
+![](https://skillicons.dev/icons?i=ps,pr,ai,ae,au,webstorm,idea,pycharm,vscode,visualstudio&theme=dark&perline=6)
+
+## 📊 Contribution grid
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="assets/github-contribution-grid-snake.svg" />
+</picture>
 
 <!--
 **mitian233/mitian233** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
