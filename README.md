@@ -1,5 +1,7 @@
 # Hi there 👋
 
+<img align="right" width="450px" src="./github-metrics.svg" />
+
 ## 🖊️ Self Introduction
 
 私は
