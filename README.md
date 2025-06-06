@@ -1,5 +1,7 @@
 # Hi there 👋
 
+<a href="https://volt.fm/mitian233" target="_blank"><img src="https://spotify-badge-mitian233.vercel.app/api/now-playing.svg" width="540" height="52" alt="now playing"></a>
+
 <img align="right" width="400px" src="./github-metrics.svg" />
 
 ## 🖊️ Self Introduction
@@ -11,8 +13,6 @@
 楽しいって思ったこと
 
 一度もない
-
-<a href="https://volt.fm/mitian233" target="_blank"><img src="https://spotify-badge-mitian233.vercel.app/api/now-playing.svg" width="540" height="52" alt="now playing"></a>
 
 ## 💻 Preferred programming language / Technology stack
 
