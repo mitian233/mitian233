@@ -12,6 +12,8 @@
 
 一度もない
 
+<a href="https://volt.fm/mitian233" target="_blank"><img src="https://spotify-badge-mitian233.vercel.app/api/now-playing.svg" width="540" height="52" alt="now playing"></a>
+
 ## 💻 Preferred programming language / Technology stack
 
 ### Learning
