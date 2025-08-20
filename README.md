@@ -18,19 +18,19 @@
 
 ### Learning
 
-![](https://skillicons.dev/icons?i=java,kotlin,spring,figma,pnpm,wasm,rust,haskell,go,nextjs,solidjs,svelte&theme=dark&perline=6)
+![](https://skillicons.dev/icons?i=java,kotlin,spring,wasm,rust,haskell,solidjs,svelte&theme=dark&perline=6)
 
 ### Using
 
-![](https://skillicons.dev/icons?i=vercel,netlify,expressjs,docker,bun,deno,nodejs,mongo,vue,vite,nuxt,react,astro,ts,js,html,css,python,flask,npm,yarn&theme=dark&perline=6)
+![](https://skillicons.dev/icons?i=prisma,postgres,mongo,sqlite,go,expressjs,docker,bun,deno,nodejs,vite,vue,nuxt,react,nextjs,astro,ts,js,html,css,python,powershell,bash&theme=dark&perline=6)
 
 ### Used
 
-![](https://skillicons.dev/icons?i=mysql,sqlite,php,c,cpp,remix,gatsby,webpack&theme=dark&perline=6)
+![](https://skillicons.dev/icons?i=mysql,sqlite,flask,php,c,cpp,remix,gatsby,webpack&theme=dark&perline=6)
 
 ### Tools
 
-![](https://skillicons.dev/icons?i=ps,pr,ai,ae,au,webstorm,idea,pycharm,vscode,visualstudio&theme=dark&perline=6)
+![](https://skillicons.dev/icons?i=ps,pr,ai,ae,au,figma,webstorm,idea,pycharm,vscode,visualstudio,pnpm,npm,yarn,vercel,netlify,cloudflare,windows,apple,linux,arch,debian,redhat&theme=dark&perline=6)
 
 ## 📊 Contribution grid
 
